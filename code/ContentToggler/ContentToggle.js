@@ -28,11 +28,14 @@ var ContentToggle = React.createClass({
       summaryClassName += ' ContentToggle__Summary--open';
     }
 
+
     return (
       <div className="ContentToggle">
         <div
           tabIndex="0"
           onClick={this.handleClick}
+          
+          onKeyPress={this.handleClick}
           className={summaryClassName}
         >
           {this.props.summary}
