@@ -4,7 +4,7 @@ var App = React.createClass({
   render: function() {
     return (
       <div>
-        <h1>ContentToggle</h1>
+        <h1>ContentTogg</h1>
         <ContentToggle summary="Tacos">
           <p>Tacos are delicious.</p>
           <p>
